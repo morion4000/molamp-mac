@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		797AD3A71815C7D600FAFB07 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797AD3A61815C7D600FAFB07 /* WebKit.framework */; };
+		797AD3B31815CE5800FAFB07 /* logosmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 797AD3B21815CE5800FAFB07 /* logosmall.png */; };
 		79DEE87A180B44F600BCFCBF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79DEE879180B44F600BCFCBF /* Cocoa.framework */; };
 		79DEE884180B44F600BCFCBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79DEE882180B44F600BCFCBF /* InfoPlist.strings */; };
 		79DEE886180B44F600BCFCBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DEE885180B44F600BCFCBF /* main.m */; };
@@ -30,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		797AD3A61815C7D600FAFB07 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		797AD3B21815CE5800FAFB07 /* logosmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logosmall.png; sourceTree = "<group>"; };
 		79DEE876180B44F600BCFCBF /* Molamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Molamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DEE879180B44F600BCFCBF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		79DEE87C180B44F600BCFCBF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				797AD3A71815C7D600FAFB07 /* WebKit.framework in Frameworks */,
 				79DEE87A180B44F600BCFCBF /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +80,7 @@
 		79DEE86D180B44F600BCFCBF = {
 			isa = PBXGroup;
 			children = (
+				797AD3B21815CE5800FAFB07 /* logosmall.png */,
 				79DEE87F180B44F600BCFCBF /* Molamp */,
 				79DEE89C180B44F700BCFCBF /* MolampTests */,
 				79DEE878180B44F600BCFCBF /* Frameworks */,
@@ -94,6 +100,7 @@
 		79DEE878180B44F600BCFCBF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				797AD3A61815C7D600FAFB07 /* WebKit.framework */,
 				79DEE879180B44F600BCFCBF /* Cocoa.framework */,
 				79DEE897180B44F700BCFCBF /* SenTestingKit.framework */,
 				79DEE87B180B44F600BCFCBF /* Other Frameworks */,
@@ -227,6 +234,7 @@
 				79DEE884180B44F600BCFCBF /* InfoPlist.strings in Resources */,
 				79DEE88A180B44F600BCFCBF /* Credits.rtf in Resources */,
 				79DEE890180B44F700BCFCBF /* MainMenu.xib in Resources */,
+				797AD3B31815CE5800FAFB07 /* logosmall.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +460,7 @@
 				79DEE8A9180B44F700BCFCBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79DEE8AA180B44F700BCFCBF /* Build configuration list for PBXNativeTarget "MolampTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +469,7 @@
 				79DEE8AC180B44F700BCFCBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

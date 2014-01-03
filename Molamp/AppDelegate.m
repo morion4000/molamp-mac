@@ -8,11 +8,21 @@
 
 #import "AppDelegate.h"
 
+
 @implementation AppDelegate
+
+@synthesize window;
+@synthesize webber;
+
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    NSString *urlString = @"http://www.molamp.net";
+    [[webber mainFrame] loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:urlString]]];
+}
+
+- (void)awakeFromNib {
 }
 
 @end
